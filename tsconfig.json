@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/api"
+    },
+    {
+      "path": "./libs/fe-libs/ui"
+    },
+    {
+      "path": "./libs/fe-libs/features"
     }
   ]
 }
