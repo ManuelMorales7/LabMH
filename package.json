@@ -67,6 +67,7 @@
   },
   "workspaces": [
     "apps/*",
-    "libs/fe-libs/*"
+    "libs/fe-libs/*",
+    "libs/*"
   ]
 }
