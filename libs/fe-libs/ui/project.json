@@ -1,0 +1,17 @@
+{
+  "name": "ui",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/fe-libs/ui/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "options": {
+        "outputPath": "dist/libs/fe-libs/ui",
+        "configFile": "libs/fe-libs/ui/vite.config.ts",
+        "index": "libs/fe-libs/ui/src/index.ts"
+      }
+    }
+  },
+  "tags": ["scope:fe-libs", "type:ui"]
+}

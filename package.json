@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start-web": "nx serve web",
-    "start-api": "nx serve api"
+    "start-api": "nx serve api",
+    "build-ui": "nx build ui",
+    "build-features": "nx build features",
+    "build-shared": "nx build shared"
   },
   "private": true,
   "dependencies": {
@@ -32,7 +35,7 @@
     "@nx/nest": "^20.8.1",
     "@nx/node": "20.8.1",
     "@nx/react": "20.8.1",
-    "@nx/vite": "20.8.1",
+    "@nx/vite": "^20.8.1",
     "@nx/web": "20.8.1",
     "@nx/webpack": "20.8.1",
     "@nx/workspace": "20.8.1",

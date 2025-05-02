@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/fe-libs/ui"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ],
